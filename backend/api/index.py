@@ -12,10 +12,9 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 
-
 load_dotenv()
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-
+API_KEY = os.getenv("GOOGLE_API_KEY")
+genai.configure(api_key=API_KEY)
 
 app = Flask(__name__)
 CORS(app)
