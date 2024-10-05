@@ -1,6 +1,6 @@
 import "./About.css";
-import Details from "./Details.jsx"
-import Footer from "../Footer/Footer.jsx"
+import Details from "./Details.jsx";
+import Footer from "../Footer/Footer.jsx";
 const About = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const About = () => {
         </div>
       </div>
       <Details />
-    <Footer/>
+      <Footer />
     </>
   );
 };
