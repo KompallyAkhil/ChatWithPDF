@@ -9,16 +9,15 @@ const About = () => {
         <div className="faq-container">
           <h1>FAQ - frequently asked questions</h1>
           <p>
-            Ok. Suppose you are here on this page now. In that case, you might
-            be looking for clarifying questions about how to download Instagram
-            photos and videos. So, look below and find the most commonly asked
-            questions about one of the best Instagram Downloaders and their
-            answers.
+            Welcome! If you're here, you're likely seeking answers about how to
+            interact with our "Chat With Author" application. Below, you'll find
+            the most commonly asked questions about how to upload PDFs and
+            receive responses based on the content of the documents.
           </p>
         </div>
       </div>
       <Details />
-      <Footer/>
+      <Footer />
     </>
   );
 };
