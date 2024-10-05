@@ -1,6 +1,6 @@
 import Accordion from 'react-bootstrap/Accordion';
-import Questions from "./Questions.js"
-import "./Login.css"
+import Questions from "../Questions.js"
+import "./About.css";
 const Details = () => {
   return (
     <Accordion defaultActiveKey="0">

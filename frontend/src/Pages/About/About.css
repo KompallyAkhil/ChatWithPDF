@@ -23,3 +23,11 @@
     font-size: 18px;
     font-weight: 400;
 }
+.questions {
+    width: 950px; 
+    margin: 0 auto;
+    display: grid;
+    padding: 15px;
+    gap: 15px;
+    font-weight: bold;
+}

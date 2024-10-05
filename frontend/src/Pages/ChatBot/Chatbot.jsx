@@ -1,14 +1,14 @@
 import Chat from "./Chatbot.module.css";
 import React, { useContext, useState } from "react";
 import { FileUploader } from "react-drag-drop-files";
-import { FileContext } from "./FileContext";
-import { Conversation } from "./ConversationContext";
+import { FileContext } from "../FileContext";
+import { Conversation } from "../ConversationContext";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { toast, ToastContainer } from "react-toastify";
 import Form from 'react-bootstrap/Form';
 import axios from 'axios';
-import Spinner from "./Spinner";
+import Spinner from "../Spinner/Spinner";
 
 const Bot = () => {
     const fileTypes = ["PDF"];

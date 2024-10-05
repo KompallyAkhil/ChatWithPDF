@@ -1,8 +1,9 @@
 import home from "./Home.module.css";
 import { Link } from "react-router-dom";
-import Timeline from "./Timeline";
-import Footer from "./Footer";
+import Timeline from "../Timeline/Timeline";
 import image from "./image.webp"
+import Footer from "../Footer/Footer.jsx"
+
 const Home = () => {
     return (
         <>

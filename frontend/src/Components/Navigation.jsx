@@ -12,7 +12,7 @@ const Navigation = () => {
                 </ul>
                 <ul>
                     <li>
-                        <Link to="/About">FAQ</Link>
+                        <Link to="/FAQ">FAQ</Link>
                     </li>
                 </ul>
                 <div className={styles.right}>

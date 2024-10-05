@@ -3,7 +3,6 @@ import Form from 'react-bootstrap/Form';
 import "./Login.css"
 import { Link } from "react-router-dom"
 import { toast, ToastContainer } from "react-toastify";
-import Footer from "./Footer";
 const Login = () => {
     const [Login, setLogin] = useState({
         LoginUsername: "",
@@ -53,7 +52,7 @@ const Login = () => {
                     </Form.Floating>
                     <div className="btncontainer">
                         <Link to='/Bot'><button onClick={LoginEvent} className="login">Login</button></Link>
-                        <ToastContainer theme="colored" position="top-center" pauseOnFocusLoss draggable autoClose={5000} pauseOnHover/>
+                        <ToastContainer theme="colored"  pauseOnFocusLoss draggable autoClose={5000} pauseOnHover/>
                     </div>
                     <div className="new">
                         <p className="textpara">Don't have an account?</p>

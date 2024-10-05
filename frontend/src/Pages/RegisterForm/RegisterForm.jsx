@@ -4,7 +4,8 @@ import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
-import Footer from "./Footer";
+import Footer from "../Footer/Footer.jsx"
+
 const RegisterForm = () => {
   const [RegisterForm, setRegisterForm] = useState({
     RegisteredFullName: "",
@@ -148,7 +149,7 @@ const RegisterForm = () => {
           </Form.Select>
           <div className="registerbtn">
             <Link to='/Login'><Button onClick={RegisterEvent} className="registerbtnsection">Register</Button></Link>
-            <ToastContainer theme="colored" position="top-center" pauseOnFocusLoss draggable autoClose={5000} pauseOnHover />
+            <ToastContainer theme="colored"  pauseOnFocusLoss draggable autoClose={5000} pauseOnHover />
           </div>
           <div className="existingacc">
             <p className="textpara">Already have an Account?</p>
