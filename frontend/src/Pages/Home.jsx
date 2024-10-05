@@ -2,6 +2,7 @@ import home from "./Home.module.css";
 import { Link } from "react-router-dom";
 import Timeline from "./Timeline";
 import image from "./homeimage.webp"
+import Footer from "./Footer";
 const Home = () => {
     return (
         <>
@@ -29,6 +30,7 @@ const Home = () => {
                 <p className={home.timelineHeading}>How to use Our ChatBot ?</p>
                 <Timeline/>
             </div>
+            <Footer/>
         </>
     );
 };

@@ -3,6 +3,7 @@ import Form from 'react-bootstrap/Form';
 import "./Login.css"
 import { Link } from "react-router-dom"
 import { toast, ToastContainer } from "react-toastify";
+import Footer from "./Footer";
 const Login = () => {
     const [Login, setLogin] = useState({
         LoginUsername: "",
@@ -62,6 +63,7 @@ const Login = () => {
                     </div>
                 </div>
             </div>
+
         </>
     )
 }

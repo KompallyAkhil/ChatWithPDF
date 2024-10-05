@@ -4,6 +4,7 @@ import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
+import Footer from "./Footer";
 const RegisterForm = () => {
   const [RegisterForm, setRegisterForm] = useState({
     RegisteredFullName: "",
@@ -155,6 +156,7 @@ const RegisterForm = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

@@ -15,6 +15,7 @@
     width: 950px; 
     margin: 0 auto;
     display: grid;
+    padding: 15px;
     gap: 15px;
     font-weight: bold;
 }
