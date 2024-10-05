@@ -12,7 +12,7 @@
     margin-top: 20px;
 }
 .questions {
-    width: 60%; 
+    width: 950px; 
     margin: 0 auto;
     display: grid;
     gap: 15px;
@@ -26,12 +26,11 @@
     font-weight: bolder;
 }
 .dt-heading{
-    border: 2px solid black;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: bolder;
 }
 .dt-headings{
     border-top: none;
-    border: 2px solid black;
     font-weight: 500;
 }
 .inputs {

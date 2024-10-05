@@ -1,19 +1,23 @@
-import about from "./About.module.css";
+import "./About.css";
 import Details from "./Details.jsx";
-import image from "./image.webp"
+
 const About = () => {
-    return (
-        <>
-            <div className={about.abtcontainer}>
-                <div className={about.innercontainer}>
-                    <h1>Frequently Asked Questions</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro perferendis, vel eos odit reiciendis illum, ex ad adipisci tempora repellat commodi, ipsum aut voluptatum numquam? Molestias consequuntur tenetur sequi explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa inventore itaque deleniti autem illum sit aut earum eum nam architecto hic perspiciatis saepe fugiat officiis, officia quibusdam iusto provident quia.</p>
-                </div>
-                <img className={about.image} src={image}></img>
-            </div>
-            <p className={about.para}>Signing Up</p>
-            <Details/>
-        </>
-    )
-}
-export default About
+  return (
+    <>
+      <div className="faq-main-container">
+        <div className="faq-container">
+          <h1>FAQ - frequently asked questions</h1>
+          <p>
+            Ok. Suppose you are here on this page now. In that case, you might
+            be looking for clarifying questions about how to download Instagram
+            photos and videos. So, look below and find the most commonly asked
+            questions about one of the best Instagram Downloaders and their
+            answers.
+          </p>
+        </div>
+      </div>
+      <Details />
+    </>
+  );
+};
+export default About;

@@ -1,5 +1,7 @@
 import home from "./Home.module.css";
 import { Link } from "react-router-dom";
+import Timeline from "./Timeline";
+import image from "./homeimage.webp"
 const Home = () => {
     return (
         <>
@@ -16,12 +18,16 @@ const Home = () => {
                     </div>
                     <div className={home.imageContainer}>
                         <img
-                            src="https://wisetechinformatics.com/wp-content/uploads/2020/10/About-Us-01-2.svg"
+                            src={image}
                             alt="Chatbot Illustration"
                             className={home.image}
                         />
                     </div>
                 </div>
+            </div>
+            <div className={home.timelineContainer}>
+                <p className={home.timelineHeading}>How to use Our ChatBot ?</p>
+                <Timeline/>
             </div>
         </>
     );
